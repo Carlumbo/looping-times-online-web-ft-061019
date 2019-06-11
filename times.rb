@@ -1,11 +1,7 @@
-def using_times = 1
-  
-7.times do 
-  puts "Wingardium Levisoa"
-  using_times += 1
+using_times = times
 
+def using_times
+  7.times do 
+    puts "Wingardium Leviosa"
+  end
 end
-
-
-
-
